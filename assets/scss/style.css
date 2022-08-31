@@ -1,0 +1,60 @@
+#tab-menu-area .tab-menu .tab-header {
+  transition: all 0.5s;
+  display: flex;
+  border: 1px solid black;
+  height: 50px;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+#tab-menu-area .tab-menu .tab-header div {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 100%;
+  padding: 5px 10px 0 10px;
+  transition: all 0.5s;
+}
+#tab-menu-area .tab-menu .tab-header div:hover {
+  background-color: rgb(126, 126, 126);
+  transition: all 0.5s;
+}
+#tab-menu-area .tab-menu .tab-body {
+  padding: 10px;
+  border: 1px solid black;
+}
+#tab-menu-area .active {
+  background-color: rgb(98, 96, 96);
+}
+
+body {
+  background-color: blueviolet;
+}
+
+#slide-area .slider {
+  position: relative;
+}
+#slide-area .slider .img img {
+  position: absolute;
+  border-radius: 25px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+#slide-area .slider .icons i {
+  font-size: 40px;
+}
+#slide-area .slider .icons .right {
+  cursor: pointer;
+  top: 280px;
+  position: absolute;
+  right: 15px;
+}
+#slide-area .slider .icons .left {
+  cursor: pointer;
+  top: 280px;
+  position: absolute;
+  left: 15px;
+}
+#slide-area .active {
+  opacity: 1 !important;
+  transform: translateX();
+}/*# sourceMappingURL=style.css.map */

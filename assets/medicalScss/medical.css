@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
+
+.card .image {
+  height: 140px;
+  width: 140px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+  margin: 20px 0;
+  width: 280px;
+}
+
+.card .image {
+  height: 140px;
+  width: 140px;
+  border-radius: 5%;
+  padding: 3px;
+  background: #7d2ae8;
+}
+
+.card .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5%;
+  background: #7d2ae8;
+  border: 3px solid #fff;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  background: #7d2ae8;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: top 10px;
+  color: #333;
+}
+
+.name-profession .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.name-profession .profession {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card .button {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card .button button {
+  background: #7d2ae8;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background: #6616d0;
+}
+
+.swiper {
+  width: 950px;
+}
+
+.right-button {
+  margin-right: 1000px;
+  margin-top: -200px;
+}
+
+.left-button {
+  margin-left: 360px;
+  margin-top: -200px;
+}/*# sourceMappingURL=medical.css.map */
